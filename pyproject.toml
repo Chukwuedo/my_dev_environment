@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "my-dev-environment"
+version = "0.1.0"
+description = "This is a test project to see how poetry works in this context."
+authors = ["Chukwudum Chukwuedo <kriz2phorus@gmail.com>"]
+license = "GPL"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.0"
+scipy = "^1.11.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
